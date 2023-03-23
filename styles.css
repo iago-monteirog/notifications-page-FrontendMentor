@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'PlusJakartaSansMedium';
+    src: url('./assets/fonts/static/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'PlusJakartaSansExtraBold';
+    src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'PlusJakartaSansMedium', sans-serif;
+    background-color: hsl(211, 68%, 94%);
+    height: 200vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid none;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_header h1 {
+    font-family: 'PlusJakartaSansExtraBold';
+    font-size: 1.3em;
+}
+
+.notification_number {
+    border: 1px solid none;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
